@@ -26,7 +26,6 @@ tail -f data/payments.csv
 ```
 
 
-
 # Batch vs Realtime Lab
 
 Educational Docker lab for teaching:
@@ -41,7 +40,6 @@ Educational Docker lab for teaching:
 - Event streams
 - Scaling tradeoffs
 
----
 
 # Overview
 
@@ -70,8 +68,6 @@ The goal is to understand the architectural differences between:
 - analytics systems
 - operational systems
 
----
-
 # Architecture
 
 ```text
@@ -92,7 +88,6 @@ The goal is to understand the architectural differences between:
 +----------------+          +----------------------+
 ```
 
----
 
 # Components
 
@@ -110,7 +105,6 @@ Example:
 }
 ```
 
----
 
 ## Realtime Service
 
@@ -125,7 +119,6 @@ Examples:
 - payment > 3000
 - many payments within short time
 
----
 
 ## Batch Service
 
@@ -139,7 +132,6 @@ Creates:
 
 Runs every 30 seconds.
 
----
 
 # Getting Started
 
@@ -148,7 +140,6 @@ Runs every 30 seconds.
 - Docker
 - Docker Compose
 
----
 
 # Run the Lab
 
@@ -156,7 +147,6 @@ Runs every 30 seconds.
 docker compose up
 ```
 
----
 
 # Watch Events
 
@@ -164,7 +154,6 @@ docker compose up
 tail -f data/payments.csv
 ```
 
----
 
 # Stop the Lab
 
@@ -172,7 +161,6 @@ tail -f data/payments.csv
 docker compose down
 ```
 
----
 
 # Learning Goals
 
@@ -186,10 +174,6 @@ Students should understand:
 - backpressure
 - scaling tradeoffs
 - data quality problems
-
----
-
-# Exercises
 
 ---
 
@@ -325,7 +309,6 @@ What happens when:
 - backpressure
 - distributed failures
 
----
 
 # Discussion Questions
 
@@ -337,7 +320,6 @@ What happens when:
 - Why is observability critical?
 - Why is scaling difficult?
 
----
 
 # Suggested Extensions
 
@@ -352,7 +334,6 @@ Advanced students can add:
 - Metrics collection
 - Distributed tracing
 
----
 
 # Educational Goal
 The focus is understanding:
