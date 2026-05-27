@@ -162,7 +162,7 @@ docker compose down
 ```
 
 
-# Learning Goals
+# Goals
 
 Students should understand:
 
